@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/timeflow/static/css/main.daa6625d.css",
-    "main.js": "/timeflow/static/js/main.edd05f76.js",
+    "main.js": "/timeflow/static/js/main.b3454560.js",
     "index.html": "/timeflow/index.html",
     "main.daa6625d.css.map": "/timeflow/static/css/main.daa6625d.css.map",
-    "main.edd05f76.js.map": "/timeflow/static/js/main.edd05f76.js.map"
+    "main.b3454560.js.map": "/timeflow/static/js/main.b3454560.js.map"
   },
   "entrypoints": [
     "static/css/main.daa6625d.css",
-    "static/js/main.edd05f76.js"
+    "static/js/main.b3454560.js"
   ]
 }
