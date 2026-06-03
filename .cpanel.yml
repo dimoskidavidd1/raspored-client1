@@ -1,6 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/public_html/timeflow/oumirceacevskopje
-    - /bin/rm -rf $DEPLOYPATH/static $DEPLOYPATH/index.html $DEPLOYPATH/manifest.json $DEPLOYPATH/asset-manifest.json
+    - export DEPLOYPATH=/home/$(whoami)/public_html/timeflow/oumirceacevskopje
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/rm -rf $DEPLOYPATH/static $DEPLOYPATH/index.html $DEPLOYPATH/manifest.json $DEPLOYPATH/asset-manifest.json $DEPLOYPATH/.htaccess $DEPLOYPATH/sw.js
     - /bin/cp -rf $CURRENT_SOURCE_DIR/build/. $DEPLOYPATH
